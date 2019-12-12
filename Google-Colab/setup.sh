@@ -13,5 +13,6 @@ pip install -r requirements.txt
 
 cd -
 
-rm -rf Scripts/
+#cleanup part
+rm -rf Scripts/ ./setup.sh
 
