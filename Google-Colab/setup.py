@@ -8,6 +8,5 @@ os.environ['KAGGLE_DATASET'] = '<Kaggle-dataset>'
 !wget https://raw.githubusercontent.com/rahul1809/Scripts/master/Google-Colab/setup.sh && chmod +x setup.sh && ./setup.sh
 
 #download the kaggle dataset for the competition
-!kaggle datasets download -d os.environ["KAGGLE_DATASET"]
-
+!kaggle competitions download -c "$KAGGLE_DATASET"
 
