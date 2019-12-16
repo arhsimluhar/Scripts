@@ -10,7 +10,7 @@ cd Scripts/Google-Colab/
 
 #install the required packages
 pip install -r requirements.txt
-
+pip install -i https://test.pypi.org/simple/ pyExplore
 cd -
 
 #cleanup part
